@@ -1,0 +1,28 @@
+POST https://127.0.0.1:5000/employee/add
+Content-Type: application/json
+
+{
+    "firstName" : "ONE",
+    "lastName" : "X-BET",
+    "departmentId" : "1"
+}
+
+###
+
+POST https://127.0.0.1:5000/department/add
+Content-Type: application/json
+
+{
+    "name" : "SIKKA",
+    "location" : "TOGO"
+}
+
+
+###
+
+POST https://127.0.0.1:5000/project/add
+Content-Type: application/json
+
+{
+    "name" : "BULDOSER",
+}
